@@ -103,19 +103,40 @@ body {
     color: #333;
 }
 
+.event-modal-container {
+    padding: 50px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 #event-modal input {
     padding: 10px;
     margin: 10px 0;
-    width: 80%;
+    width: 100%;
 }
 
 #event-modal button {
+    width: 100%;
     padding: 10px;
     background-color: #4CAF50;
     border: none;
     color: white;
     cursor: pointer;
-    margin: 5px;
 }
 
 #event-modal button:hover {
@@ -150,6 +171,11 @@ body {
 
 #events-container li:hover {
     background-color: #e0e0e0;
+}
+
+.event-actions {
+    display: flex;
+    gap: 10px;
 }
 
 .event-actions button {
